@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .registration-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        
+        input[type="email"] {
+            padding: 10px;
+            margin: 0 10px;
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="email-registration" action="/" method="post">
+        <div class="registration-container">
+            <h1>SIGN UP FOR OUR DAILY INSIDER</h1>
+            <input type="email" name="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+    </form>
+</body>
+</html>
